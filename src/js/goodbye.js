@@ -31,7 +31,7 @@ function uploadData(toSave) {
   formData.append(
     'csvFile',
     new Blob([csvContent], { type: 'text/csv' }),
-    `orev-NOconsent-${toSave.subjID}-${day}-${time}.csv`,
+    `prabat-NOconsent-${toSave.subjID}-${day}-${time}.csv`,
   );
 
   // send the data to the server

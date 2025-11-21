@@ -1,12 +1,12 @@
 {
-  "name": "oREV",
-  "short_name": "oREV",
+  "name":"PraBat",
+  "short_name": "PraBat",
   "start_url": "./",
   "display": "fullscreen",
   "background_color": "#006c66",
   "lang": "en",
   "scope": "./",
-  "description": "These are the landing pages for the oREV-VN.",
+  "description": "These are the landing pages for the PraBat.",
   "theme_color": "#006c66",
   "orientation": "landscape",
   "icons": [
