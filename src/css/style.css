@@ -26,6 +26,14 @@ body {
   text-align: center;
 }
 
+.small-heading {
+  /* font-family: cholla-sans, sans-serif; */
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--ccp-minerva-green);
+  text-align: center;
+}
+
 .text .radio-label {
   font-size: 18px;
   color: hsl(0 0% 10%);
@@ -36,7 +44,7 @@ body {
   margin: 5vh auto;
   display: flex;
   justify-content: center;
-  background-color: #faf5e7;
+  background-color: #f5f7fd;
   border-radius: 8px;
 }
 
