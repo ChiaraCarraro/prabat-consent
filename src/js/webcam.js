@@ -11,7 +11,7 @@ const saving = 'upload';
 
 const handleContinueClick = (event) => {
   event.preventDefault();
-  window.location.href = `https://devpsy.web.leuphana.de/prabat-m/instructions.html?ID=${subjID}&webcam=${webcam}`;
+  window.location.href = `https://devpsy.web.leuphana.de/prabat/instructions.html?ID=${subjID}&webcam=${webcam}`;
 };
 
 button.addEventListener('click', handleContinueClick, { capture: false });
