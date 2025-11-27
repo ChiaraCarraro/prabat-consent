@@ -7,7 +7,7 @@
     "dev": "bun vite",
     "build": "bun vite build",
     "preview": "bun vite preview",
-    "deploy": "bun vite build && sh src/scripts/deploy.sh",
+    "deploy": "sh src/scripts/deploy.sh",
     "fetchdata": "sh src/scripts/fetchdata.sh"
   },
   "devDependencies": {

@@ -1,0 +1,1 @@
+import"./style-EU19yP9S.js";const e=document.getElementById("continue-button"),n=JSON.parse(localStorage.getItem("subjID"))||"test",o="true",a=t=>{t.preventDefault(),window.location.href=`https://devpsy.web.leuphana.de/prabat/instructions.html?ID=${n}&webcam=${o}`};e.addEventListener("click",a,{capture:!1});
