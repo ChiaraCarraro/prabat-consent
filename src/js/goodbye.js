@@ -6,7 +6,20 @@ const pDelete = document.getElementById('p-delete');
 const aDownload = document.getElementById('a-download');
 
 // get ID out of URL
-const subjID = new URL(document.location.href).searchParams.get('subjID');
+// const subjID = new URL(document.location.href).searchParams.get('subjID');
+
+// getting ID out of local storage
+
+const storedChoices = localStorage.getItem("storedChoices");
+let studyChoices;
+if (storedChoices) {
+  studyChoices = JSON.parse(storedChoices);
+} else {
+  console.error("No data found in local storage");
+}
+
+const subjID = studyChoices.ID || "testID";
+
 
 // If the deleteCheckbox is not checked, disable the deleteButton
 const handleChecked = () => {
