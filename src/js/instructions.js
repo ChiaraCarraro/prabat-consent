@@ -5,6 +5,7 @@ const checkbox = document.getElementById('confirm-checkbox');
 
 // Needs JSON.parse to convert the string back to an object, otherwise we get e.g. "\"test\""
 const subjID = JSON.parse(localStorage.getItem('subjID')) || 'test';
+const webcam = 'true';
 
 // function for response logging, creating csv file on server
 function uploadData(toSave) {
@@ -61,7 +62,7 @@ checkbox.addEventListener('change', handleChecked, { capture: false });
 // Continue can only be clicked once the checkbox is checked
 const handleContinueClick = (event) => {
   event.preventDefault();
-  window.location.href = './webcam.html';
+  window.location.href = `https://devpsy.web.leuphana.de/prabat/webcam.html?ID=${subjID}&webcam=${webcam}`
 };
 
 button.addEventListener('click', handleContinueClick, { capture: false });

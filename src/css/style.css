@@ -88,8 +88,8 @@ input[type='checkbox']:checked {
 }
 
 #video-img-item {
-  max-width: 75%;
-  max-height: 75%;
+  max-width: 55%;
+  max-height: 55%;
 }
 
 .columns {

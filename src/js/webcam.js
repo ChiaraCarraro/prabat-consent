@@ -7,7 +7,7 @@ const subjID = JSON.parse(localStorage.getItem('subjID')) || 'test';
 
 // Use the German/Leipzig default settings
 const webcam = 'true';
-const saving = 'upload';
+// const saving = 'upload';
 
 const handleContinueClick = (event) => {
   event.preventDefault();
