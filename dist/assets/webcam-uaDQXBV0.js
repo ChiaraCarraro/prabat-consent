@@ -1,0 +1,1 @@
+import"./style-EU19yP9S.js";const n=document.getElementById("continue-button"),t=JSON.parse(localStorage.getItem("subjID"))||"test-lostIDinWebcam";console.log(`Subject ID retrieved: ${t}`);const o="true",c=e=>{e.preventDefault(),window.location.href=`https://devpsy.web.leuphana.de/prabat/instructions.html?ID=${t}&webcam=${o}`};n.addEventListener("click",c,{capture:!1});

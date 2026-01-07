@@ -1,0 +1,1 @@
+import"./style-EU19yP9S.js";const e=document.getElementById("continue-button"),n=t=>{t.preventDefault(),window.location.href="./instructions.html"},o=JSON.parse(localStorage.getItem("subjID"))||"test-lostIDinWelcome";console.log(`Subject ID set to: ${o}`);e.addEventListener("click",n,{capture:!1});

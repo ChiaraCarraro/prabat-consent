@@ -3,7 +3,8 @@ import '../css/style.css';
 const button = document.getElementById('continue-button');
 
 // Needs JSON.parse to convert the string back to an object, otherwise we get e.g. "\"test\""
-const subjID = JSON.parse(localStorage.getItem('subjID')) || 'test';
+const subjID = JSON.parse(localStorage.getItem('subjID')) || 'test-lostIDinWebcam';
+console.log(`Subject ID retrieved: ${subjID}`);
 
 // Use the German/Leipzig default settings
 const webcam = 'true';

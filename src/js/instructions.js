@@ -4,7 +4,8 @@ const button = document.getElementById('continue-button');
 const checkbox = document.getElementById('confirm-checkbox');
 
 // Needs JSON.parse to convert the string back to an object, otherwise we get e.g. "\"test\""
-const subjID = JSON.parse(localStorage.getItem('subjID')) || 'test';
+const subjID = JSON.parse(localStorage.getItem('subjID')) || 'test-lostIDinInstructions';
+console.log(`Subject ID retrieved: ${subjID}`);
 
 // function for response logging, creating csv file on server
 function uploadData(toSave) {
