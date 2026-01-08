@@ -1,0 +1,1 @@
+import"./style-EU19yP9S.js";const n=document.getElementById("continue-button"),t=JSON.parse(localStorage.getItem("subjID"))||"test-lostIDinWebcam";console.log(`Subject ID retrieved: ${t}`);const c="true",o=e=>{e.preventDefault(),window.location.href=`https://ccp-odc.eva.mpg.de/prabat/instructions.html?ID=${t}&webcam=${c}`};n.addEventListener("click",o,{capture:!1});
